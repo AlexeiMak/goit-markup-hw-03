@@ -206,7 +206,7 @@ img {
   gap: 24px;
 }
 
-.servise-classes .servise-classes-element {
+.servise-classes-element:first-child {
   flex-basis: calc((100% - 72px) / 4);
 }
 
