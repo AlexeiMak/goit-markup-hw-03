@@ -230,13 +230,17 @@ img {
 /*  page-three  */
 
 .page-three {
+  padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.container-page-three {
+  padding: 32px 0;
 }
 
 .team {
   padding: 0 auto;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -256,8 +260,6 @@ img {
 
 .team-block {
   border-radius: 0 0 4px 4px;
-  width: 264px;
-  height: 380px;
   display: block;
   justify-content: center;
   flex-basis: calc((100% - 72px) / 4);
