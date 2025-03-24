@@ -177,6 +177,8 @@ p {
 }
 
 .servise-classes {
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   gap: 24px;
 }
@@ -209,11 +211,16 @@ p {
 
 /*  page-two  */
 
+/*  page-three  */
+
 .page-three {
   background-color: #f4f4fd;
 }
 
 .team {
+  padding: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -223,11 +230,30 @@ p {
   color: #2e2f42;
 }
 
+.team-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
+}
+
 .team-block {
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380px;
+  display: block;
+  justify-content: center;
+  flex-basis: calc((100% - 72px) / 4);
   background-color: #fff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-block-name {
+  padding-top: 32px;
+  padding-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -237,6 +263,7 @@ p {
 }
 
 .team-block-activity {
+  padding-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -244,6 +271,10 @@ p {
   text-align: center;
   color: #434455;
 }
+
+/*  page-three  */
+
+/*  page-four  */
 
 .page-four {
 }
@@ -256,9 +287,27 @@ p {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 60px;
+  padding-bottom: 120px;
+}
+
+.portfolio-block {
+  flex-basis: calc((100% - 72px) / 3);
 }
 
 .portfolio-block-name {
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -267,6 +316,9 @@ p {
 }
 
 .portfolio-block-text {
+  margin-top: 0px;
+  margin-left: 16px;
+  margin-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -274,8 +326,19 @@ p {
   color: #434455;
 }
 
+/*  page-four  */
+
+.container-footer {
+  display: block;
+  padding: 100px 0;
+}
+
 .footer {
   background-color: #2e2f42;
+}
+
+.fotter-logo {
+  pad;
 }
 
 .footer-logo,
@@ -289,6 +352,8 @@ p {
 }
 
 .fotter-text {
+  margin-top: 8px;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
