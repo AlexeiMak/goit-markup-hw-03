@@ -204,9 +204,6 @@ img {
   padding-right: 15px;
   display: flex;
   gap: 24px;
-}
-
-.servise-classes-element:first-child {
   flex-basis: calc((100% - 72px) / 4);
 }
 
