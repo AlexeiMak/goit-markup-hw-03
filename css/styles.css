@@ -70,10 +70,6 @@ img {
   color: #2e2f42;
 }
 
-.logo-part-two {
-  color: #f4f4fd;
-}
-
 .nav-list {
   font-weight: 500;
   font-size: 16px;
@@ -346,16 +342,22 @@ img {
   padding: 100px 0;
 }
 
-.footer-logo,
+.footer-logo {
+display: inline-block;
+margin-bottom: 16px;
+}
+
 .logo-part-two {
-  display: inline-block;
-  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.logo-part-two {
+  color: #f4f4fd;
 }
 
 .fotter-text {
